@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LineShader 3
-  m_Shader: {fileID: -6465566751694194690, guid: b4750779fe61701418238067d0a936ee,
+  m_Name: gray-white
+  m_Shader: {fileID: -6465566751694194690, guid: ab670c182c0ada946b12155a453cfe53,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -41,10 +41,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorA: {r: 0, g: 0, b: 1, a: 1}
-    - _ColorB: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
+    - _gray: {r: 0.4823529, g: 0.4823529, b: 0.4823529, a: 1}
+    - _red: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &7365632219462345668
+--- !u!114 &2368828243070677894
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

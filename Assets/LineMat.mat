@@ -7,9 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LineShader 3
-  m_Shader: {fileID: -6465566751694194690, guid: b4750779fe61701418238067d0a936ee,
-    type: 3}
+  m_Name: LineMat
+  m_Shader: {fileID: -6465566751694194690, guid: 5c71c7f9116fba44c86095fb735445dc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -19,7 +18,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -41,10 +41,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorA: {r: 0, g: 0, b: 1, a: 1}
-    - _ColorB: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
+    - _ColorA: {r: 0.6528301, g: 0.6528301, b: 0.6528301, a: 1}
+    - _ColorB: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &7365632219462345668
+--- !u!114 &6251924014089887438
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,5 +55,5 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
